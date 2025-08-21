@@ -1,4 +1,3 @@
 Streamlit
 Pandas
-Plotly.express
-Plotly.graph_objects
+Plotly
