@@ -6,8 +6,8 @@ from PIL import Image
 import datetime
 
 # reading the data 
-df= pd.read_excel(page_title="Adidas Sales Dashboard", 'Adidas.xlsx')
-st.set_page_config(layout='wide')
+df= pd.read_excel('Adidas.xlsx')
+st.set_page_config(page_title="Adidas Sales Dashboard",layout='wide')
 st.markdown('<style>div.block-container{padding-top: 1rem;}</style>', unsafe_allow_html=True)
 image = Image.open('adidas-logo.png')
 
@@ -139,5 +139,6 @@ with dwn5:
     st.download_button('Get Raw Data', data=df.to_csv().encode('utf-8'),
                        file_name='Sales_Raw_data.csv', mime='text/csv')
     
+
 
 
