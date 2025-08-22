@@ -12,6 +12,6 @@ It visualizes Adidas sales data across regions, retailers, and time.
 - Last Updated Date Indicator
 **Installation**
 ```bash
-git clone https://github.com/your-username/Adidas-Dashboard.git
+git clone https://github.com/Ahmad34-90/Adidas-Dashboard.git
 cd Adidas-Dashboard
 pip install -r requirements.txt
